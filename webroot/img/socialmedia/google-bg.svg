@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="511px" height="511px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 152.1 152.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+    .fil2 {fill:#34A853;fill-rule:nonzero}
+    .fil1 {fill:#4285F4;fill-rule:nonzero}
+    .fil4 {fill:#EB4335;fill-rule:nonzero}
+    .fil3 {fill:#FBBC05;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="152.1" height="152.1" rx="21.41" ry="21.41"/>
+  <g id="_2515641537712">
+   <g>
+    <path class="fil1" d="M141.23 77.53c0,-5.47 -0.44,-9.46 -1.4,-13.6l-62.45 0 0 24.68 36.66 0c-0.74,6.14 -4.73,15.38 -13.6,21.58l-0.13 0.83 19.75 15.29 1.37 0.14c12.56,-11.6 19.8,-28.67 19.8,-48.92l0 0zm0 0l0 0 0 0z"/>
+   </g>
+   <path class="fil2" d="M77.38 142.56c17.96,0 33.03,-5.91 44.05,-16.11l-20.99 -16.26c-5.62,3.92 -13.16,6.65 -23.06,6.65 -17.59,0 -32.51,-11.6 -37.84,-27.63l-0.78 0.06 -20.53 15.89 -0.26 0.75c10.93,21.72 33.4,36.65 59.41,36.65z"/>
+   <g>
+    <path class="fil3" d="M39.54 89.21c-1.4,-4.14 -2.21,-8.58 -2.21,-13.16 0,-4.58 0.81,-9.01 2.14,-13.15l-0.04 -0.88 -20.78 -16.15 -0.69 0.32c-4.5,9.02 -7.09,19.15 -7.09,29.86 0,10.72 2.59,20.84 7.1,29.86l21.57 -16.7 0 0zm0 0l0 0 0 0z"/>
+   </g>
+   <g>
+    <path class="fil4" d="M77.38 35.26c12.49,0 20.91,5.39 25.72,9.9l18.77 -18.33c-11.53,-10.71 -26.53,-17.29 -44.49,-17.29 -26.01,0 -48.48,14.93 -59.42,36.65l21.51 16.71c5.4,-16.04 20.32,-27.64 37.91,-27.64l0 0zm0 0l0 0 0 0z"/>
+   </g>
+  </g>
+ </g>
+</svg>

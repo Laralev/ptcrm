@@ -1,0 +1,244 @@
+@charset "utf-8";
+:root {
+    --blue: #007bff;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #6da653;
+}
+::-webkit-input-placeholder { 
+    color: #999 !important;
+    font-style: italic;
+}
+:-ms-input-placeholder { 
+    color: #999 !important;
+    font-style: italic;
+}
+::placeholder {
+    color: #999 !important;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: none;
+}
+label {
+    margin-bottom:0;
+}
+.main-cover {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/logo.png) center no-repeat #fff;
+    background-size: 150px;
+}
+.imgHolder {
+    opacity: 0;
+    z-index: -20;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-align: center;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 150px;
+    overflow: auto;
+}
+.imgHolder img {
+    margin: 30px auto;
+    width: 90%;
+}
+.imgHolder i {
+    color: #000;
+    background: #ccc;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 15%;
+    top: 0;
+    padding: 6px 12px;
+    z-index: 111;
+}
+.slideHolder{
+    height: 100%;
+}
+.slideHolder .carousel-inner {
+    padding: 0;
+    overflow-y: auto;
+    height: 100%;
+}
+
+#msgHolder {
+    transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+#msgHolder > div {
+    padding: 10px 20px;
+    max-width: 500px;
+    margin: auto;
+    border: 2px double #ccc;
+    border-radius: 4px;
+}
+#msgHolder > span {
+    display: block;
+}
+#msgHolder .msg_white {
+    background: #fff;
+}
+#msgHolder .error {
+    background: var(--light_red);
+}
+#msgHolder .success {
+    background: var(--light_green);
+}
+#msgHolder .warning {
+    background: var(--light_orange);
+}
+
+.error-message{
+    width: 100%;
+	padding:4px 0 0 0;
+	line-height:11px;
+	display:block;
+	font-size:11px;
+	float:right;
+    color: #F00;
+}
+.message{
+	position: fixed;
+	display: inline-block;
+	width:auto;
+	height:120%;
+	top:-150%;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.7);
+	z-index:8888;
+	padding: 0 30px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.message span{
+	overflow:hidden;
+	border-radius:3px;
+	display:block;
+	max-width:600px;
+	border:1px solid #999;
+	color:#000;
+	z-index:9999;
+	margin:150px auto;
+	position:relative;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+    padding: 20px 50px;
+}
+.message span i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #666;
+}
+.error span{
+	background:#F0CECE;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+.success span{
+	background: #D6E4B1;
+	-webkit-transition: all 0.5s; 
+    transition: all 0.5s;
+}
+.default span{
+	background: #ccc;
+}
+.showAlert{
+    opacity: 1;
+    top: 0;
+}
+
+header .logo img{
+    height: 40px;
+}
+.btn-socialmedia{
+    padding: 14px;
+}
+.btn-google{
+    background-color: #4d82e5;
+    background-image: url(../img/socialmedia/google-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 8px center;
+    color: #fff;
+}
+.btn{
+    border: 1px solid #eee;
+}
+.modal-open .modal {
+    padding-right: 0 !important;
+}
+
+.search-input {
+    position: relative;
+}
+
+input{
+    
+    width: 75%;
+    border: 1px solid gray;
+    border-radius: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:focus{
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.filter-input {
+    position: relative;
+    display: inline-block;
+}
+
+
+#rec-state{
+    width: 162px;
+    border: 1px solid gray;
+    border-radius: 1px;
+    background-color: white;
+    padding: 3px;
+}
+
+.form-group {
+    position: relative;
+    
+}
+
+.btnIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+}
